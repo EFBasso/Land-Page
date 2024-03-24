@@ -16,7 +16,7 @@
 }
 
 .menu h1 {
-	font-size: 2.3rem;
+	font-size: 2.8rem;
 	color: var(--primary-color);
 }
 
@@ -36,7 +36,7 @@
 	display: block;
 	height: 3rem;
 	padding: 2rem;
-	font-size: 1.8rem;
+	font-size: 2rem;
 	position: relative;
 	color: var(--primary-color);
 	font-weight: 500;
