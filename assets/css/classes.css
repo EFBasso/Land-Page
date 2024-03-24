@@ -1,0 +1,23 @@
+.main-bg {
+	background-image: url('/assets/img/fundo.png');
+	background-size: cover;
+	background-position: center center;
+}
+
+.white-bg {
+	background: var(--white-color);
+}
+
+
+.main-content {
+	max-width: 120rem; /*equivale a 1200px*/
+	margin: 0 auto;
+}
+
+.section {
+	min-height: 100vh;
+}
+
+.menu-space {
+	height: 7rem;
+}
