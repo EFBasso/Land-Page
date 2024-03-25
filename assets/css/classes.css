@@ -7,12 +7,14 @@
 .white-bg {
 	background: var(--white-color);
 	color: var(--primary-color);
+	background-size: cover;
+	background-position: center center;
 }
-
 
 .main-content {
 	max-width: 120rem; /*equivale a 1200px*/
 	margin: 0 auto;
+	padding: 3rem var(--gap);
 }
 
 .section {
@@ -26,17 +28,18 @@
 .top3-content {
 	max-width: 64rem;
 	display: flex;
-	flex-flow: column wrap;
+	/* flex-flow: column wrap; */
+	flex-direction: column;
+	flex-wrap: nowrap;
 	justify-content: center;
-	text-align: center;
-	height: 100vh;
+	min-height: 100vh;
 }
 
 .grid-one-content {
 	display: flex;
 	flex-flow: column wrap;
 	justify-content: center;
-	height: 100vh;
+	min-height: 100vh;
 }
 
 .top3-content h2 {
@@ -66,9 +69,13 @@
 .grid h3 {
 	font-size: 3rem;
 	position: relative;
-	padding-left: 5rem;
+	padding-left: 7rem;
 	padding-bottom: 5rem;
 	text-align: left;
+}
+
+.grid>h3 {
+	padding-bottom: 2rem;
 }
 
 .grid h3::before {
@@ -78,7 +85,6 @@
 	font-size: 10rem;
 	font-style: italic;
 	top: -5rem;
-	left: -2rem;
+	left: -1rem;
 	transform: rotate(3deg);
 }
-
