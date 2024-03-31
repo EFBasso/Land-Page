@@ -1,0 +1,80 @@
+:root {
+	--dark-color: #0A1128;
+	--white-color: #e6e6e6;
+	--gray: #c4c4c4;
+	--gap: 3rem;
+	--red: crimson;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+} 
+
+/* font-family: "Montserrat", sans-serif; */
+/* font-family: "Open Sans", sans-serif; */
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;/*rolar devagar ao clicar no link*/
+}
+
+body {
+	font-size: 2rem;
+	font-family: "Open Sans", sans-serif;
+	line-height: 1.7;
+}
+
+h1, h2 {
+	font-family: "Montserrat", sans-serif;
+	line-height: 1.4;
+}
+
+h1 {
+	font-size: 6rem;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 6rem;
+	margin-bottom: 6rem;
+	text-transform: uppercase;
+	font-weight: 550;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	margin-bottom: 3rem;
+}
+.main-content {
+	max-width: 120rem;
+	margin: 0 auto;
+	padding: 8rem var(--gap);
+}
+
+.menu-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.dark-pg {
+	background-image: url('../img/main-bg.png');
+	background-size: cover;
+	background-position: center center;
+	color: var(--white-color);
+}
+
+.white-pg {
+	background: var(--white-color);
+}
+
+.height-page {
+	min-height: 100vh;
+}

@@ -1,0 +1,21 @@
+.top3-content {
+	max-width: 64rem;
+	display: flex;
+	/* flex-flow: column wrap; */
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	height: 100vh;
+	text-align: center;
+	font-weight: 500;
+	font-family: cursive;
+	font-style: italic;
+}
+
+.top3-content h2 {
+	font-weight: 800;
+	text-align: center;
+	font-style: normal;
+	margin-bottom: 10rem;	
+}
+

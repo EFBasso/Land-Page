@@ -4,122 +4,270 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Landing Page</title>
-	<link rel="stylesheet" href="./assets/css/style.css">
 	<link rel="stylesheet" href="./assets/css/menu.css">
-	<link rel="stylesheet" href="./assets/css/elements.css">
-	<link rel="stylesheet" href="./assets/css/classes.css">
-	<link rel="stylesheet" href="./assets/css/variables.css">
+	<link rel="stylesheet" href="./assets/css/std-page.css">
+	<link rel="stylesheet" href="./assets/css/intro.css">
+	<link rel="stylesheet" href="./assets/css/top3.css">
+	<link rel="stylesheet" href="./assets/css/grid-top3.css">
+	<link rel="stylesheet" href="./assets/css/gallery.css">
+	<link rel="stylesheet" href="./assets/css/pricing.css">
+	<link rel="stylesheet" href="./assets/css/contact.css">
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
 		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap"
 		rel="stylesheet">
+	<title>Landing Page</title>
 </head>
 
-<body class="main-bg">
-	<aside class="menu white-bg">
-		<div class="main-content menu-content">
-			<h1><a href="#">LOGO</a></h1>
-			<nav>
-				<ul>
-					<li><a href="#intro">Intro</a></li>
-					<li><a href="#top3">Top 3</a></li>
-					<li><a href="#grid-one">Grid-One</a></li>
-					<li><a href="#gallery">Gallery</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</nav>
+<body>
+	<aside>
+		<div class="menu">
+			<div class="main-content menu-content">
+				<h1>
+					<a href="#">Logo</a>
+				</h1>
+				<nav>
+					<ul>
+						<li><a href="#intro">Intro</a></li>
+						<li><a href="#description-jobs">Jobs</a></li>
+						<li><a href="#top3">Top 3</a></li>
+						<li><a href="#gallery">Gallery</a></li>
+						<li><a href="#pricing">Pricing</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
 		</div>
 	</aside>
-	<div class="menu-space"></div>
 
-	<section id="intro" class="intro main-bg section">
+	<div class="space-menu"></div>
+
+	<section id="intro" class="dark-pg height-page">
 		<div class="main-content intro-content">
-			<div class="intro-text-content">
+			<div class="intro-text height-page">
 				<h2>January brings us Firefox 85</h2>
 				<p>
-					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam assumenda error, doloremque dolorum
-					exercitationem, quibusdam doloribus beatae, nisi tempore tempora a. Aliquam facere dignissimos odio, pariatur
-					provident natus architecto perferendis?
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet possimus animi quia rem odit facere dolore ea.
+					Dolorum a sapiente itaque eveniet quisquam magnam aliquid, quos deleniti, suscipit molestiae unde.
 				</p>
 			</div>
 
-			<div class="intro-img">
-				<img src="./assets/img/new-img.svg" alt="img java script, css e HTML">
+			<div class="intro-image">
+				<img src="./assets/img/js-svg.svg" alt="logo html, css e js">
 			</div>
 		</div>
 	</section>
 
-	<section id="top3" class="white-bg section">
+	<section id="description-jobs" class="white-pg height-page">
 		<div class="main-content top3-content">
-			<h2>TOP 3 JOBS</h2>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum at, ducimus repellendus exercitationem dolores
-				illum aliquid? Quia sunt porro ad, fugiat numquam optio libero nobis quidem? Debitis doloribus sint omnis?</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum at, ducimus repellendus exercitationem dolores
-				illum aliquid? Quia sunt porro ad, fugiat numquam optio libero nobis quidem? Debitis doloribus sint omnis?</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum at, ducimus repellendus exercitationem dolores
-				illum aliquid? Quia sunt porro ad, fugiat numquam optio libero nobis quidem? Debitis doloribus sint omnis?</p>
+			<h2>The best jobs</h2>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit at quod error. Quam ducimus officiis cumque
+				temporibus esse doloribus vero cupiditate est. Similique unde nulla hic dignissimos sapiente error doloribus.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit at quod error. Quam ducimus officiis cumque
+				temporibus esse doloribus vero cupiditate est. Similique unde nulla hic dignissimos sapiente error doloribus.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit at quod error. Quam ducimus officiis cumque
+				temporibus esse doloribus vero cupiditate est. Similique unde nulla hic dignissimos sapiente error doloribus.
+			</p>
 		</div>
 	</section>
 
-	<section id="grid-one" class="grid-one main-bg section main-content">
-		<div class="grid-one-content">
-			<h2 class="grid-main-head">my grid</h2>
-			<p class="grid-description">Descrição da seção...</p>
+	<section id="top3" class="grid-top3 dark-pg height-page">
+		<div class="grid-top3-content main-content">
+			<h2>Top 3 Jobs</h2>
+			<p>Lorem ipsum dolor sit amet consectetur.</p>
 			<div class="grid">
 				<article>
-					<h3>Título</h3>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam possimus libero, natus voluptates itaque
-						culpa eos architecto laboriosam, quas repellendus nemo! Distinctio earum dolore fugiat dignissimos
-						aspernatur? Voluptate, repudiandae itaque?</p>
+					<h3>Teste</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam porro architecto ipsum hic saepe expedita
+						repudiandae quis dolore fugit impedit, obcaecati atque magnam provident. Nobis natus exercitationem
+						doloremque
+						error nihil.
+					</p>
 				</article>
-
 				<article>
-					<h3>Título</h3>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam possimus libero, natus voluptates itaque
-						culpa eos architecto laboriosam, quas repellendus nemo! Distinctio earum dolore fugiat dignissimos
-						aspernatur? Voluptate, repudiandae itaque?</p>
+					<h3>Teste</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam porro architecto ipsum hic saepe expedita
+						repudiandae quis dolore fugit impedit, obcaecati atque magnam provident. Nobis natus exercitationem
+						doloremque
+						error nihil.
+					</p>
 				</article>
-
 				<article>
-					<h3>Título</h3>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam possimus libero, natus voluptates itaque
-						culpa eos architecto laboriosam, quas repellendus nemo! Distinctio earum dolore fugiat dignissimos
-						aspernatur? Voluptate, repudiandae itaque?</p>
+					<h3>Teste</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam porro architecto ipsum hic saepe expedita
+						repudiandae quis dolore fugit impedit, obcaecati atque magnam provident. Nobis natus exercitationem
+						doloremque
+						error nihil.
+					</p>
 				</article>
 			</div>
+
 		</div>
 	</section>
 
-	<section id="gallery" class="grid-one white-bg section main-content">
-		<div class="grid-one-content">
-			<h2 class="grid-main-head">Gallery</h2>
-			<p class="grid-description">Descrição das imagens...</p>
-
+	<section id="gallery" class="grid-top3 white-pg height-page">
+		<div class="grid-top3-content main-content">
+			<h2>Gallery</h2>
+			<p>Gallery Random Pictures from site Unsplash</p>
 			<div class="grid">
 				<div class="gallery-img">
-					<img src="http://source.unsplash.com/random/360x360?r=0" alt="random images from unsplash">
+					<img src="http://source.unsplash.com/random/360x360?r=0" alt="picture random from unsplash">
 				</div>
 				<div class="gallery-img">
-					<img src="http://source.unsplash.com/random/360x360?r=2" alt="random images from unsplash">
+					<img src="http://source.unsplash.com/random/360x360?r=1" alt="picture random from unsplash">
 				</div>
 				<div class="gallery-img">
-					<img src="http://source.unsplash.com/random/360x360?r=3" alt="random images from unsplash">
+					<img src="http://source.unsplash.com/random/360x360?r=2" alt="picture random from unsplash">
 				</div>
 				<div class="gallery-img">
-					<img src="http://source.unsplash.com/random/360x360?r=4" alt="random images from unsplash">
+					<img src="http://source.unsplash.com/random/360x360?r=3" alt="picture random from unsplash">
 				</div>
 				<div class="gallery-img">
-					<img src="http://source.unsplash.com/random/360x360?r=5" alt="random images from unsplash">
+					<img src="http://source.unsplash.com/random/360x360?r=4" alt="picture random from unsplash">
 				</div>
 				<div class="gallery-img">
-					<img src="http://source.unsplash.com/random/360x360?r=6" alt="random images from unsplash">
+					<img src="http://source.unsplash.com/random/360x360?r=5" alt="picture random from unsplash">
 				</div>
+
 			</div>
+
+		</div>
+	</section>
+
+	<section id="pricing" class="white-pg height-page">
+		<div class="main-content top3-content">
+			<h2>pricing</h2>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, laborum magnam corrupti reprehenderit enim
+				vel quod pariatur? Aliquid a, itaque, nisi accusantium quis fuga veritatis earum provident sequi incidunt dicta.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem deserunt autem iste consectetur, rerum a molestias
+				fuga. Minus explicabo incidunt ex! Tempora provident sapiente pariatur repellat, magnam cupiditate voluptates
+				velit?
+			</p>
+
+			<div class="responsive-table">
+				<table>
+					<caption>
+						Precing table
+					</caption>
+
+					<thead>
+						<tr>
+							<th>Title 1</th>
+							<th>Title 2</th>
+							<th>Title 3</th>
+							<th>Title 4</th>
+							<th>Title 5</th>
+							<th>Title 6</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<td>Content 1</td>
+							<td>Content 2</td>
+							<td>Content 3</td>
+							<td>Content 4</td>
+							<td>Content 5</td>
+							<td>Content 6</td>
+						</tr>
+						<tr>
+							<td>Content 1</td>
+							<td>Content 2</td>
+							<td>Content 3</td>
+							<td>Content 4</td>
+							<td>Content 5</td>
+							<td>Content 6</td>
+						</tr>
+						<tr>
+							<td>Content 1</td>
+							<td>Content 2</td>
+							<td>Content 3</td>
+							<td>Content 4</td>
+							<td>Content 5</td>
+							<td>Content 6</td>
+						</tr>
+					</tbody>
+
+					<tfoot>
+						<tr>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>Rodapé</td>
+						</tr>
+					</tfoot>
+
+				</table>
+			</div>
+
+		</div>
+	</section>
+
+	<section id="contact" class="dark-pg height-page">
+		<div class="main-content intro-content">
+			<div class="intro-text">
+				<h2>Contact form</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet possimus animi quia rem odit facere dolore ea.
+					Dolorum a sapiente itaque eveniet quisquam magnam aliquid, quos deleniti, suscipit molestiae unde.
+				</p>
+			</div>
+
+			<div class="intro-image">
+				<img src="./assets/img/contact.svg" alt="logo html, css e js">
+			</div>
+
+			<div class="contact-form">
+				<fieldset class="form-grid">
+					<legend>Contact</legend>
+
+					<div class="form-group">
+						<label for="first-name">First name</label>
+						<input type="text" name=first-name id="first-name" placeholder="Enter your first name">
+					</div>
+
+					<div class="form-group">
+						<label for="last-name">Last name</label>
+						<input type="text" name=last-name id="last-name" placeholder="Enter your last name">
+					</div>
+
+					<div class="form-group">
+						<label for="email">E-mail</label>
+						<input type="email" name=email id="email" placeholder="Enter your E-mail">
+					</div>
+
+					<div class="form-group full-width">
+						<label for="message">Message</label>
+						<textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+					</div>
+
+					<div class="form-group full-width">
+						<button type="submit">
+							Send message
+						</button>
+					</div>
+
+				</fieldset>
+			</div>
+
 		</div>
 	</section>
 
 </body>
+
 </html>

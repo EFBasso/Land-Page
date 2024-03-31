@@ -1,56 +1,56 @@
+
 .menu {
+	background: black;
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
 	width: 100%;
 	z-index: 1;
-	border-bottom: 0.1rem solid	var(--light-gray-color);
+	border-bottom: 0.1rem solid black;
 }
 
-.menu-content {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding-top: 0;
-	padding-bottom: 0;
-}
+.space-menu {
+	display: block;
+	height: 64.2424px;
 
-.menu h1 {
-	font-size: 2.8rem;
-	color: var(--primary-color);
-}
-
-.menu h1 a {
-	
-	color: inherit;
-	padding: 1.8rem;
 }
 
 .menu ul {
+	list-style: none;
 	display: flex;
-	list-style-type: none;
+}
+
+.menu h1 {
+	font-size: 3rem;
+	font-weight: 800;
+	list-style: none;
+	color: var(--white-color);
+}
+
+.menu h1 a {
+	list-style: none;
+	color: inherit;
 }
 
 .menu ul li a {
-	display: block;
-	height: 3rem;
+	text-decoration: none;
 	padding: 2rem;
-	font-size: 2rem;
+	font-size: 1.8rem;
+	display: block;
+	color: var(--white-color);
 	position: relative;
-	color: var(--primary-color);
-	font-weight: 500;
 }
 
 .menu ul li a::after {
 	content: '';
 	position: absolute;
-	bottom: 1rem;
-	left: 25%;
-	width: 0;
+	bottom: 0.9rem;
+	left: 50%;
+	width: 0%;
 	height: 0.2rem;
-	background: var(--secundary-color);
-	transition: ease-in-out;
+	background:  var(--red);
+	transition: all 200ms ease-in-out;
 }
 
 .menu ul li a:hover::after {
