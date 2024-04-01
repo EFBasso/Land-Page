@@ -26,6 +26,9 @@
 
 @media (max-width: 80rem) 
 {
+	.main-content {
+		display: block;
+	}
 	
 	.intro-content, .grid {
 		grid-template-columns: 1fr;
