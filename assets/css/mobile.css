@@ -26,9 +26,6 @@
 
 @media (max-width: 80rem) 
 {
-	* {
-		padding: var(--gap);
-	}
 	
 	.intro-content, .grid {
 		grid-template-columns: 1fr;
